@@ -1,39 +1,41 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><style>body {
-  width: 45em;
-  border: 1px solid #ddd;
-  outline: 1300px solid #fff;
-  margin: 16px auto;
-}
-
-body .markdown-body
-{
-  padding: 30px;
-}
-
-@font-face {
-  font-family: fontawesome-mini;
-  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
-}
-
-@font-face {
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>@font-face {
   font-family: octicons-anchor;
   src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAYcAA0AAAAACjQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABMAAAABwAAAAca8vGTk9TLzIAAAFMAAAARAAAAFZG1VHVY21hcAAAAZAAAAA+AAABQgAP9AdjdnQgAAAB0AAAAAQAAAAEACICiGdhc3AAAAHUAAAACAAAAAj//wADZ2x5ZgAAAdwAAADRAAABEKyikaNoZWFkAAACsAAAAC0AAAA2AtXoA2hoZWEAAALgAAAAHAAAACQHngNFaG10eAAAAvwAAAAQAAAAEAwAACJsb2NhAAADDAAAAAoAAAAKALIAVG1heHAAAAMYAAAAHwAAACABEAB2bmFtZQAAAzgAAALBAAAFu3I9x/Nwb3N0AAAF/AAAAB0AAAAvaoFvbwAAAAEAAAAAzBdyYwAAAADP2IQvAAAAAM/bz7t4nGNgZGFgnMDAysDB1Ml0hoGBoR9CM75mMGLkYGBgYmBlZsAKAtJcUxgcPsR8iGF2+O/AEMPsznAYKMwIkgMA5REMOXicY2BgYGaAYBkGRgYQsAHyGMF8FgYFIM0ChED+h5j//yEk/3KoSgZGNgYYk4GRCUgwMaACRoZhDwCs7QgGAAAAIgKIAAAAAf//AAJ4nHWMMQrCQBBF/0zWrCCIKUQsTDCL2EXMohYGSSmorScInsRGL2DOYJe0Ntp7BK+gJ1BxF1stZvjz/v8DRghQzEc4kIgKwiAppcA9LtzKLSkdNhKFY3HF4lK69ExKslx7Xa+vPRVS43G98vG1DnkDMIBUgFN0MDXflU8tbaZOUkXUH0+U27RoRpOIyCKjbMCVejwypzJJG4jIwb43rfl6wbwanocrJm9XFYfskuVC5K/TPyczNU7b84CXcbxks1Un6H6tLH9vf2LRnn8Ax7A5WQAAAHicY2BkYGAA4teL1+yI57f5ysDNwgAC529f0kOmWRiYVgEpDgYmEA8AUzEKsQAAAHicY2BkYGB2+O/AEMPCAAJAkpEBFbAAADgKAe0EAAAiAAAAAAQAAAAEAAAAAAAAKgAqACoAiAAAeJxjYGRgYGBhsGFgYgABEMkFhAwM/xn0QAIAD6YBhwB4nI1Ty07cMBS9QwKlQapQW3VXySvEqDCZGbGaHULiIQ1FKgjWMxknMfLEke2A+IJu+wntrt/QbVf9gG75jK577Lg8K1qQPCfnnnt8fX1NRC/pmjrk/zprC+8D7tBy9DHgBXoWfQ44Av8t4Bj4Z8CLtBL9CniJluPXASf0Lm4CXqFX8Q84dOLnMB17N4c7tBo1AS/Qi+hTwBH4rwHHwN8DXqQ30XXAS7QaLwSc0Gn8NuAVWou/gFmnjLrEaEh9GmDdDGgL3B4JsrRPDU2hTOiMSuJUIdKQQayiAth69r6akSSFqIJuA19TrzCIaY8sIoxyrNIrL//pw7A2iMygkX5vDj+G+kuoLdX4GlGK/8Lnlz6/h9MpmoO9rafrz7ILXEHHaAx95s9lsI7AHNMBWEZHULnfAXwG9/ZqdzLI08iuwRloXE8kfhXYAvE23+23DU3t626rbs8/8adv+9DWknsHp3E17oCf+Z48rvEQNZ78paYM38qfk3v/u3l3u3GXN2Dmvmvpf1Srwk3pB/VSsp512bA/GG5i2WJ7wu430yQ5K3nFGiOqgtmSB5pJVSizwaacmUZzZhXLlZTq8qGGFY2YcSkqbth6aW1tRmlaCFs2016m5qn36SbJrqosG4uMV4aP2PHBmB3tjtmgN2izkGQyLWprekbIntJFing32a5rKWCN/SdSoga45EJykyQ7asZvHQ8PTm6cslIpwyeyjbVltNikc2HTR7YKh9LBl9DADC0U/jLcBZDKrMhUBfQBvXRzLtFtjU9eNHKin0x5InTqb8lNpfKv1s1xHzTXRqgKzek/mb7nB8RZTCDhGEX3kK/8Q75AmUM/eLkfA+0Hi908Kx4eNsMgudg5GLdRD7a84npi+YxNr5i5KIbW5izXas7cHXIMAau1OueZhfj+cOcP3P8MNIWLyYOBuxL6DRylJ4cAAAB4nGNgYoAALjDJyIAOWMCiTIxMLDmZedkABtIBygAAAA==) format('woff');
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body .markdown-body {
+    padding: 45px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    word-wrap: break-word;
+}
+
+pre {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
 .markdown-body {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  color: #333333;
-  overflow: hidden;
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  text-size-adjust: 100%;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word;
 }
 
 .markdown-body a {
-  background: transparent;
+  background-color: transparent;
 }
 
 .markdown-body a:active,
@@ -41,30 +43,8 @@ body .markdown-body
   outline: 0;
 }
 
-.markdown-body b,
 .markdown-body strong {
   font-weight: bold;
-}
-
-.markdown-body mark {
-  background: #ff0;
-  color: #000;
-  font-style: italic;
-  font-weight: bold;
-}
-
-.markdown-body sub,
-.markdown-body sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-.markdown-body sup {
-  top: -0.5em;
-}
-.markdown-body sub {
-  bottom: -0.25em;
 }
 
 .markdown-body h1 {
@@ -77,7 +57,6 @@ body .markdown-body
 }
 
 .markdown-body hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
@@ -88,8 +67,7 @@ body .markdown-body
 
 .markdown-body code,
 .markdown-body kbd,
-.markdown-body pre,
-.markdown-body samp {
+.markdown-body pre {
   font-family: monospace, monospace;
   font-size: 1em;
 }
@@ -123,81 +101,16 @@ body .markdown-body
   padding: 0;
 }
 
-.markdown-body .codehilitetable {
-  border: 0;
-  border-spacing: 0;
-}
-
-.markdown-body .codehilitetable tr {
-  border: 0;
-}
-
-.markdown-body .codehilitetable pre,
-.markdown-body .codehilitetable div.codehilite {
-  margin: 0;
-}
-
-.markdown-body .linenos,
-.markdown-body .code,
-.markdown-body .codehilitetable td {
-  border: 0;
-  padding: 0;
-}
-
-.markdown-body td:not(.linenos) .linenodiv {
-  padding: 0 !important;
-}
-
-.markdown-body .code {
-  width: 100%;
-}
-
-.markdown-body .linenos div pre,
-.markdown-body .linenodiv pre,
-.markdown-body .linenodiv {
-  border: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  -webkit-border-top-left-radius: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -moz-border-radius-topleft: 3px;
-  -moz-border-radius-bottomleft: 3px;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-}
-
-.markdown-body .code div pre,
-.markdown-body .code div {
-  border: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  -webkit-border-top-right-radius: 3px;
-  -webkit-border-bottom-right-radius: 3px;
-  -moz-border-radius-topright: 3px;
-  -moz-border-radius-bottomright: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-}
-
-.markdown-body * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 .markdown-body input {
-  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  line-height: 1.4;
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .markdown-body a {
-  color: #4183c4;
+  color: #4078c0;
   text-decoration: none;
 }
 
 .markdown-body a:hover,
-.markdown-body a:focus,
 .markdown-body a:active {
   text-decoration: underline;
 }
@@ -211,14 +124,15 @@ body .markdown-body
   border-bottom: 1px solid #ddd;
 }
 
-.markdown-body hr:before,
-.markdown-body hr:after {
+.markdown-body hr:before {
   display: table;
-  content: " ";
+  content: "";
 }
 
 .markdown-body hr:after {
+  display: table;
   clear: both;
+  content: "";
 }
 
 .markdown-body h1,
@@ -283,9 +197,7 @@ body .markdown-body
   margin-left: 0;
 }
 
-.markdown-body code,
-.markdown-body pre,
-.markdown-body samp {
+.markdown-body code {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 12px;
 }
@@ -293,21 +205,39 @@ body .markdown-body
 .markdown-body pre {
   margin-top: 0;
   margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
-.markdown-body kbd {
-  background-color: #e7e7e7;
-  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
-  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
-  background-image: linear-gradient(#fefefe, #e7e7e7);
-  background-repeat: repeat-x;
-  border-radius: 2px;
-  border: 1px solid #cfcfcf;
-  color: #000;
-  padding: 3px 5px;
-  line-height: 10px;
-  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+.markdown-body .select::-ms-expand {
+  opacity: 0;
+}
+
+.markdown-body .octicon {
+  font: normal normal normal 16px/1 octicons-anchor;
   display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  display: table;
+  clear: both;
+  content: "";
 }
 
 .markdown-body>*:first-child {
@@ -318,18 +248,18 @@ body .markdown-body
   margin-bottom: 0 !important;
 }
 
-.markdown-body .headeranchor-link {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  display: block;
-  padding-right: 6px;
-  padding-left: 30px;
-  margin-left: -30px;
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
 }
 
-.markdown-body .headeranchor-link:focus {
+.markdown-body .anchor {
+  display: inline-block;
+  padding-right: 2px;
+  margin-left: -18px;
+}
+
+.markdown-body .anchor:focus {
   outline: none;
 }
 
@@ -339,44 +269,39 @@ body .markdown-body
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
-  position: relative;
   margin-top: 1em;
   margin-bottom: 16px;
   font-weight: bold;
   line-height: 1.4;
 }
 
-.markdown-body h1 .headeranchor,
-.markdown-body h2 .headeranchor,
-.markdown-body h3 .headeranchor,
-.markdown-body h4 .headeranchor,
-.markdown-body h5 .headeranchor,
-.markdown-body h6 .headeranchor {
-  display: none;
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
   color: #000;
   vertical-align: middle;
+  visibility: hidden;
 }
 
-.markdown-body h1:hover .headeranchor-link,
-.markdown-body h2:hover .headeranchor-link,
-.markdown-body h3:hover .headeranchor-link,
-.markdown-body h4:hover .headeranchor-link,
-.markdown-body h5:hover .headeranchor-link,
-.markdown-body h6:hover .headeranchor-link {
-  height: 1em;
-  padding-left: 8px;
-  margin-left: -30px;
-  line-height: 1;
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
   text-decoration: none;
 }
 
-.markdown-body h1:hover .headeranchor-link .headeranchor,
-.markdown-body h2:hover .headeranchor-link .headeranchor,
-.markdown-body h3:hover .headeranchor-link .headeranchor,
-.markdown-body h4:hover .headeranchor-link .headeranchor,
-.markdown-body h5:hover .headeranchor-link .headeranchor,
-.markdown-body h6:hover .headeranchor-link .headeranchor {
-  display: inline-block;
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
 }
 
 .markdown-body h1 {
@@ -386,6 +311,10 @@ body .markdown-body
   border-bottom: 1px solid #eee;
 }
 
+.markdown-body h1 .anchor {
+  line-height: 1;
+}
+
 .markdown-body h2 {
   padding-bottom: 0.3em;
   font-size: 1.75em;
@@ -393,22 +322,42 @@ body .markdown-body
   border-bottom: 1px solid #eee;
 }
 
+.markdown-body h2 .anchor {
+  line-height: 1;
+}
+
 .markdown-body h3 {
   font-size: 1.5em;
   line-height: 1.43;
+}
+
+.markdown-body h3 .anchor {
+  line-height: 1.2;
 }
 
 .markdown-body h4 {
   font-size: 1.25em;
 }
 
+.markdown-body h4 .anchor {
+  line-height: 1.2;
+}
+
 .markdown-body h5 {
   font-size: 1em;
+}
+
+.markdown-body h5 .anchor {
+  line-height: 1.1;
 }
 
 .markdown-body h6 {
   font-size: 1em;
   color: #777;
+}
+
+.markdown-body h6 .anchor {
+  line-height: 1.1;
 }
 
 .markdown-body p,
@@ -417,8 +366,7 @@ body .markdown-body
 .markdown-body ol,
 .markdown-body dl,
 .markdown-body table,
-.markdown-body pre,
-.markdown-body .admonition {
+.markdown-body pre {
   margin-top: 0;
   margin-bottom: 16px;
 }
@@ -508,12 +456,11 @@ body .markdown-body
 
 .markdown-body img {
   max-width: 100%;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: content-box;
+  background-color: #fff;
 }
 
-.markdown-body code,
-.markdown-body samp {
+.markdown-body code {
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
@@ -539,11 +486,11 @@ body .markdown-body
   border: 0;
 }
 
-.markdown-body .codehilite {
+.markdown-body .highlight {
   margin-bottom: 16px;
 }
 
-.markdown-body .codehilite pre,
+.markdown-body .highlight pre,
 .markdown-body pre {
   padding: 16px;
   overflow: auto;
@@ -553,7 +500,7 @@ body .markdown-body
   border-radius: 3px;
 }
 
-.markdown-body .codehilite pre {
+.markdown-body .highlight pre {
   margin-bottom: 0;
   word-break: normal;
 }
@@ -579,325 +526,136 @@ body .markdown-body
   content: normal;
 }
 
-/* Admonition */
-.markdown-body .admonition {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  position: relative;
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
   border-radius: 3px;
-  border: 1px solid #e0e0e0;
-  border-left: 6px solid #333;
-  padding: 10px 10px 10px 30px;
+  box-shadow: inset 0 -1px 0 #bbb;
 }
 
-.markdown-body .admonition table {
+.markdown-body .pl-c {
+  color: #969896;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #0086b3;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
   color: #333;
 }
 
-.markdown-body .admonition p {
-  padding: 0;
+.markdown-body .pl-ent {
+  color: #63a35c;
 }
 
-.markdown-body .admonition-title {
+.markdown-body .pl-k {
+  color: #a71d5d;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #183691;
+}
+
+.markdown-body .pl-v {
+  color: #ed6a43;
+}
+
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
   font-weight: bold;
-  margin: 0;
 }
 
-.markdown-body .admonition>.admonition-title {
-  color: #333;
+.markdown-body .pl-ml {
+  color: #693a17;
 }
 
-.markdown-body .attention>.admonition-title {
-  color: #a6d796;
-}
-
-.markdown-body .caution>.admonition-title {
-  color: #d7a796;
-}
-
-.markdown-body .hint>.admonition-title {
-  color: #96c6d7;
-}
-
-.markdown-body .danger>.admonition-title {
-  color: #c25f77;
-}
-
-.markdown-body .question>.admonition-title {
-  color: #96a6d7;
-}
-
-.markdown-body .note>.admonition-title {
-  color: #d7c896;
-}
-
-.markdown-body .admonition:before,
-.markdown-body .attention:before,
-.markdown-body .caution:before,
-.markdown-body .hint:before,
-.markdown-body .danger:before,
-.markdown-body .question:before,
-.markdown-body .note:before {
-  font: normal normal 16px fontawesome-mini;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  line-height: 1.5;
-  color: #333;
-  position: absolute;
-  left: 0;
-  top: 0;
-  padding-top: 10px;
-  padding-left: 10px;
-}
-
-.markdown-body .admonition:before {
-  content: "\f056\00a0";
-  color: 333;
-}
-
-.markdown-body .attention:before {
-  content: "\f058\00a0";
-  color: #a6d796;
-}
-
-.markdown-body .caution:before {
-  content: "\f06a\00a0";
-  color: #d7a796;
-}
-
-.markdown-body .hint:before {
-  content: "\f05a\00a0";
-  color: #96c6d7;
-}
-
-.markdown-body .danger:before {
-  content: "\f057\00a0";
-  color: #c25f77;
-}
-
-.markdown-body .question:before {
-  content: "\f059\00a0";
-  color: #96a6d7;
-}
-
-.markdown-body .note:before {
-  content: "\f040\00a0";
-  color: #d7c896;
-}
-
-.markdown-body .admonition::after {
-  content: normal;
-}
-
-.markdown-body .attention {
-  border-left: 6px solid #a6d796;
-}
-
-.markdown-body .caution {
-  border-left: 6px solid #d7a796;
-}
-
-.markdown-body .hint {
-  border-left: 6px solid #96c6d7;
-}
-
-.markdown-body .danger {
-  border-left: 6px solid #c25f77;
-}
-
-.markdown-body .question {
-  border-left: 6px solid #96a6d7;
-}
-
-.markdown-body .note {
-  border-left: 6px solid #d7c896;
-}
-
-.markdown-body .admonition>*:first-child {
-  margin-top: 0 !important;
-}
-
-.markdown-body .admonition>*:last-child {
-  margin-bottom: 0 !important;
-}
-
-/* progress bar*/
-.markdown-body .progress {
-  display: block;
-  width: 300px;
-  margin: 10px 0;
-  height: 24px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  background-color: #ededed;
-  position: relative;
-  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
-}
-
-.markdown-body .progress-label {
-  position: absolute;
-  text-align: center;
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
   font-weight: bold;
-  width: 100%; margin: 0;
-  line-height: 24px;
+}
+
+.markdown-body .pl-mq {
+  color: #008080;
+}
+
+.markdown-body .pl-mi {
   color: #333;
-  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
-  -webkit-font-smoothing: antialiased !important;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.markdown-body .progress-bar {
-  height: 24px;
-  float: left;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  background-color: #96c6d7;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
-  background-size: 30px 30px;
-  background-image: -webkit-linear-gradient(
-    135deg, rgba(255, 255, 255, .4) 27%,
-    transparent 27%,
-    transparent 52%, rgba(255, 255, 255, .4) 52%,
-    rgba(255, 255, 255, .4) 77%,
-    transparent 77%, transparent
-  );
-  background-image: -moz-linear-gradient(
-    135deg,
-    rgba(255, 255, 255, .4) 27%, transparent 27%,
-    transparent 52%, rgba(255, 255, 255, .4) 52%,
-    rgba(255, 255, 255, .4) 77%, transparent 77%,
-    transparent
-  );
-  background-image: -ms-linear-gradient(
-    135deg,
-    rgba(255, 255, 255, .4) 27%, transparent 27%,
-    transparent 52%, rgba(255, 255, 255, .4) 52%,
-    rgba(255, 255, 255, .4) 77%, transparent 77%,
-    transparent
-  );
-  background-image: -o-linear-gradient(
-    135deg,
-    rgba(255, 255, 255, .4) 27%, transparent 27%,
-    transparent 52%, rgba(255, 255, 255, .4) 52%,
-    rgba(255, 255, 255, .4) 77%, transparent 77%,
-    transparent
-  );
-  background-image: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, .4) 27%, transparent 27%,
-    transparent 52%, rgba(255, 255, 255, .4) 52%,
-    rgba(255, 255, 255, .4) 77%, transparent 77%,
-    transparent
-  );
-}
-
-.markdown-body .progress-100plus .progress-bar {
-  background-color: #a6d796;
-}
-
-.markdown-body .progress-80plus .progress-bar {
-  background-color: #c6d796;
-}
-
-.markdown-body .progress-60plus .progress-bar {
-  background-color: #d7c896;
-}
-
-.markdown-body .progress-40plus .progress-bar {
-  background-color: #d7a796;
-}
-
-.markdown-body .progress-20plus .progress-bar {
-  background-color: #d796a6;
-}
-
-.markdown-body .progress-0plus .progress-bar {
-  background-color: #c25f77;
-}
-
-.markdown-body .candystripe-animate .progress-bar{
-  -webkit-animation: animate-stripes 3s linear infinite;
-  -moz-animation: animate-stripes 3s linear infinite;
-  animation: animate-stripes 3s linear infinite;
-}
-
-@-webkit-keyframes animate-stripes {
-  0% {
-    background-position: 0 0;
-  }
-
-  100% {
-    background-position: 60px 0;
-  }
-}
-
-@-moz-keyframes animate-stripes {
-  0% {
-    background-position: 0 0;
-  }
-
-  100% {
-    background-position: 60px 0;
-  }
-}
-
-@keyframes animate-stripes {
-  0% {
-    background-position: 0 0;
-  }
-
-  100% {
-    background-position: 60px 0;
-  }
-}
-
-.markdown-body .gloss .progress-bar {
-  box-shadow:
-    inset 0 4px 12px rgba(255, 255, 255, .7),
-    inset 0 -12px 0 rgba(0, 0, 0, .05);
-}
-
-/* Multimarkdown Critic Blocks */
-.markdown-body .critic_mark {
-  background: #ff0;
-}
-
-.markdown-body .critic_delete {
-  color: #c82829;
-  text-decoration: line-through;
-}
-
-.markdown-body .critic_insert {
-  color: #718c00 ;
-  text-decoration: underline;
-}
-
-.markdown-body .critic_comment {
-  color: #8e908c;
   font-style: italic;
 }
 
-.markdown-body .headeranchor {
-  font: normal normal 16px octicons-anchor;
-  line-height: 1;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
 }
 
-.headeranchor:before {
-  content: '\f05c';
+.markdown-body .pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .plan-price-unit {
+  color: #767676;
+  font-weight: normal;
 }
 
 .markdown-body .task-list-item {
@@ -909,110 +667,59 @@ body .markdown-body
 }
 
 .markdown-body .task-list-item input {
-  margin: 0 4px 0.25em -20px;
+  margin: 0 0.35em 0.25em -1.6em;
   vertical-align: middle;
 }
 
-/* Media */
-@media only screen and (min-width: 480px) {
-  .markdown-body {
-    font-size:14px;
-  }
+.markdown-body .plan-choice {
+  padding: 15px;
+  padding-left: 40px;
+  display: block;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  font-weight: normal;
+  background-color: #fafafa;
 }
 
-@media only screen and (min-width: 768px) {
-  .markdown-body {
-    font-size:16px;
-  }
+.markdown-body .plan-choice.open {
+  background-color: #fff;
 }
 
-@media print {
-  .markdown-body * {
-    background: transparent !important;
-    color: black !important;
-    filter:none !important;
-    -ms-filter: none !important;
-  }
+.markdown-body .plan-choice.open .plan-choice-seat-breakdown {
+  display: block;
+}
 
-  .markdown-body {
-    font-size:12pt;
-    max-width:100%;
-    outline:none;
-    border: 0;
-  }
+.markdown-body .plan-choice-free {
+  border-radius: 3px 3px 0 0;
+}
 
-  .markdown-body a,
-  .markdown-body a:visited {
-    text-decoration: underline;
-  }
+.markdown-body .plan-choice-paid {
+  border-radius: 0 0 3px 3px;
+  border-top: 0;
+  margin-bottom: 20px;
+}
 
-  .markdown-body .headeranchor-link {
-    display: none;
-  }
+.markdown-body .plan-choice-radio {
+  position: absolute;
+  left: 15px;
+  top: 18px;
+}
 
-  .markdown-body a[href]:after {
-    content: " (" attr(href) ")";
-  }
+.markdown-body .plan-choice-exp {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
 
-  .markdown-body abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
+.markdown-body .plan-choice-seat-breakdown {
+  margin-top: 10px;
+  display: none;
+}
 
-  .markdown-body .ir a:after,
-  .markdown-body a[href^="javascript:"]:after,
-  .markdown-body a[href^="#"]:after {
-    content: "";
-  }
-
-  .markdown-body pre {
-    white-space: pre;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-  }
-
-  .markdown-body pre,
-  .markdown-body blockquote {
-    border: 1px solid #999;
-    padding-right: 1em;
-    page-break-inside: avoid;
-  }
-
-  .markdown-body .progress,
-  .markdown-body .progress-bar {
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-  }
-
-  .markdown-body .progress {
-    border: 1px solid #ddd;
-  }
-
-  .markdown-body .progress-bar {
-    height: 22px;
-    border-right: 1px solid #ddd;
-  }
-
-  .markdown-body tr,
-  .markdown-body img {
-    page-break-inside: avoid;
-  }
-
-  .markdown-body img {
-    max-width: 100% !important;
-  }
-
-  .markdown-body p,
-  .markdown-body h2,
-  .markdown-body h3 {
-    orphans: 3;
-    widows: 3;
-  }
-
-  .markdown-body h2,
-  .markdown-body h3 {
-    page-break-after: avoid;
-  }
+.markdown-body :checked+.radio-label {
+  z-index: 1;
+  position: relative;
+  border-color: #4078c0;
 }
 </style><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script>
@@ -1103,61 +810,40 @@ MathJax.Hub.Config({
   onReady(function(){convertUML('uml-sequence-diagram', Diagram, {theme: 'simple'});});
 })(window, document)
 </script>
-<title>profileLCZ</title></head><body><article class="markdown-body"><div class="toc">
-<ul>
-<li><a href="#_1">刘纯彰 个人简历</a><ul>
-<li><a href="#_2">求职意向</a></li>
-<li><a href="#_3">基本信息</a></li>
-<li><a href="#_4">基本能力</a></li>
-<li><a href="#_5">实践经历</a><ul>
-<li><a href="#_6">百度风险与信息管理部</a><ul>
-<li><a href="#_7">征信查询平台</a></li>
-<li><a href="#_8">征信接口</a></li>
-</ul>
-</li>
-<li><a href="#_9">实验室项目</a><ul>
-<li><a href="#_10">图书共享在线系统</a></li>
-<li><a href="#wot">&ldquo;WOT&rdquo; 国家重大专项智能教学子项</a></li>
-<li><a href="#ifttt">基于 IFTTT 模式的智能家居项目</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#_11">科研经历</a><ul>
-<li><a href="#wot_1">“WOT”国家重大专项</a></li>
-<li><a href="#_12">硕士论文《基于共享 模式的社交网络模型 建模与分析》</a></li>
-</ul>
-</li>
-<li><a href="#_13">获奖经历</a></li>
-<li><a href="#_14">个人评价</a></li>
-</ul>
-</li>
-</ul>
-</div>
-<hr />
-<p><img alt="" src="/Users/liuchunzhang/Work/workspace/profileLCZ/bupt.png" /></p>
-<hr />
-<h1 id="_1"><a name="user-content-_1" href="#_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>刘纯彰 个人简历</h1>
-<div align="center">
-<img src="/Users/liuchunzhang/Work/workspace/profileLCZ/LCZ.jpg" width="150">
-</div>
+<title>profileLCZ</title></head><body><article class="markdown-body"><p><a href="/Users/liuchunzhang/Work/workspace/profileLCZ/bupt.png" target="_blank"><img align="right" src="/Users/liuchunzhang/Work/workspace/profileLCZ/bupt.png" style="max-width:100%;"></a></p>
 
-<hr />
-<h2 id="_2"><a name="user-content-_2" href="#_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>求职意向</h2>
+<hr>
+
+<hr>
+
+<h2>
+<a id="user-content-求职意向" class="anchor" href="#%E6%B1%82%E8%81%8C%E6%84%8F%E5%90%91" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>求职意向</h2>
+
 <blockquote>
 <p>后台JAVA研发</p>
 </blockquote>
-<hr />
-<h2 id="_3"><a name="user-content-_3" href="#_3" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>基本信息</h2>
+
+<hr>
+
+<p><a href="/Users/liuchunzhang/Work/workspace/profileLCZ/LCZ.jpg" target="_blank"><img align="right" src="/Users/liuchunzhang/Work/workspace/profileLCZ/LCZ.jpg" width="150" style="max-width:100%;"></a></p>
+
+<h2>
+<a id="user-content-基本信息" class="anchor" href="#%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>基本信息</h2>
+
 <ul>
 <li>刘纯彰/1991.10/男</li>
-<li>手机:15117928421 <code>最佳联系时间:8:00 am -- 6:00 pm</code></li>
-<li>邮箱:new_c_z@163.com</li>
-<li>研究生:北京邮电大学/通信工程</li>
-<li>本科:北京邮电大学/通信工程</li>
+<li>手机:15117928421 </li>
+<li>邮箱:<a href="mailto:new_c_z@163.com">new_c_z@163.com</a>
+</li>
+<li>研究生:北京邮电大学/通信工程/2014-2017</li>
+<li>本科:北京邮电大学/通信工程/2010-2014 </li>
 </ul>
-<hr />
-<h2 id="_4"><a name="user-content-_4" href="#_4" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>基本能力</h2>
+
+<hr>
+
+<h2>
+<a id="user-content-基本能力" class="anchor" href="#%E5%9F%BA%E6%9C%AC%E8%83%BD%E5%8A%9B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>基本能力</h2>
+
 <ul>
 <li>熟悉 JAVA编程 熟悉面向对象设计模式</li>
 <li>熟悉 Spring Struts2 Hibernate MyBatis SpringMVC等开源框架的开发,熟悉 MVC 模式</li>
@@ -1171,95 +857,160 @@ MathJax.Hub.Config({
 <li>熟悉 bootstrap jquery 前端框架</li>
 <li>熟悉 C++ 编程,扎实计算机基础,对数据结构和算法有较深入的了解</li>
 </ul>
-<hr />
-<h2 id="_5"><a name="user-content-_5" href="#_5" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>实践经历</h2>
-<h3 id="_6"><a name="user-content-_6" href="#_6" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>百度风险与信息管理部</h3>
-<h4 id="_7"><a name="user-content-_7" href="#_7" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>征信查询平台</h4>
+
+<hr>
+
+<h2>
+<a id="user-content-实践经历" class="anchor" href="#%E5%AE%9E%E8%B7%B5%E7%BB%8F%E5%8E%86" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>实践经历</h2>
+
+<h3>
+<a id="user-content-百度风险与信息管理部" class="anchor" href="#%E7%99%BE%E5%BA%A6%E9%A3%8E%E9%99%A9%E4%B8%8E%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E9%83%A8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>百度风险与信息管理部</h3>
+
+<h4>
+<a id="user-content-征信查询平台" class="anchor" href="#%E5%BE%81%E4%BF%A1%E6%9F%A5%E8%AF%A2%E5%B9%B3%E5%8F%B0" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>征信查询平台</h4>
+
 <blockquote>
-<p>2016.7 &ndash; 2016.10</p>
+<p>2016.7 -- 2016.10</p>
 </blockquote>
+
 <p>征信查询平台是为进一步提高风险控制能力,准确评价用户信誉度,确保金融安全而直接与人行征信平台对接,并可以对外提供查询服务的查询管理平台. </p>
-<p>在平台上定义查询服务的配置及查询模板,支持单条查询 批量查询服务,并配置查询服务各种组件 <br />
-如安全,加密,通讯等功能组件<br />
+
+<p>在平台上定义查询服务的配置及查询模板,支持单条查询 批量查询服务,并配置查询服务各种组件 
+如安全,加密,通讯等功能组件
 并在网关模块集成征信系列接口</p>
+
 <p>功能点:</p>
+
 <ol>
-<li>基于 Spring springMVC MyBatis 框架开发. <br />
- Spring 框架便于模块的整合与管理<br />
- 使用 MyBatis便于sql与后台逻辑层分离,降低耦合度,提高灵活性.</li>
+<li>基于 Spring springMVC MyBatis 框架开发. 
+Spring 框架便于模块的整合与管理
+使用 MyBatis便于sql与后台逻辑层分离,降低耦合度,提高灵活性.</li>
 <li>前台 使用 bootstrap 与 jquery 框架</li>
 <li>使用 redis 做缓存与时效管理</li>
 <li>使用 elasticSearch 文本数据库 增加文本数据的存储及相似文本搜索能力</li>
 <li>使用消息队列,优化资源分发与负载均衡能力</li>
 <li>使用 velocity 根据可配置模板动态生成报文 </li>
 </ol>
-<p>在本项目中我负责 单条及批量报告查询功能,服务配置功能,组件配置功能,有效期配置功能,网关模块,对外查询模块的设计与实现.<br />
-并全权负责与上海信审的联调工作及与配合QA测试的工作.<br />
+
+<p>在本项目中我负责 单条及批量报告查询功能,服务配置功能,组件配置功能,有效期配置功能,网关模块,对外查询模块的设计与实现.
+并全权负责与上海信审的联调工作及与配合QA测试的工作.
 此平台已上线.</p>
-<h4 id="_8"><a name="user-content-_8" href="#_8" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>征信接口</h4>
+
+<h4>
+<a id="user-content-征信接口" class="anchor" href="#%E5%BE%81%E4%BF%A1%E6%8E%A5%E5%8F%A3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>征信接口</h4>
+
 <blockquote>
-<p>2016.7 &ndash; 2016.10</p>
+<p>2016.7 -- 2016.10</p>
 </blockquote>
-<p>征信接口是提供一系列与征信有关的接口服务<br />
-比如提供:<br />
+
+<p>征信接口是提供一系列与征信有关的接口服务
+比如提供:
 法院失信名单,银行贷款纪录,黑名单接口,买单侠接口,征信报告接口等一系列的接口</p>
-<p>在本项目中,我负责征信报告接口,买单侠接口的实现,并负责征信系列接口的迁移工作,这些将全部迁移集成到征信网关模块<br />
+
+<p>在本项目中,我负责征信报告接口,买单侠接口的实现,并负责征信系列接口的迁移工作,这些将全部迁移集成到征信网关模块
 目前这两个接口已上线</p>
-<h3 id="_9"><a name="user-content-_9" href="#_9" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>实验室项目</h3>
-<h4 id="_10"><a name="user-content-_10" href="#_10" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>图书共享在线系统</h4>
+
+<h3>
+<a id="user-content-实验室项目" class="anchor" href="#%E5%AE%9E%E9%AA%8C%E5%AE%A4%E9%A1%B9%E7%9B%AE" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>实验室项目</h3>
+
+<h4>
+<a id="user-content-图书共享在线系统" class="anchor" href="#%E5%9B%BE%E4%B9%A6%E5%85%B1%E4%BA%AB%E5%9C%A8%E7%BA%BF%E7%B3%BB%E7%BB%9F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>图书共享在线系统</h4>
+
 <blockquote>
-<p>2015.9 &ndash; 2016.2</p>
+<p>2015.9 -- 2016.2</p>
 </blockquote>
-<p><a href="http://www.makerway.space/makerway/">点击查看网站</a></p>
-<p>在这个项目中我主要负责后台和部分前端的实现<br />
-后台用 php 实现,基于 thinkphp 框架 前端会涉及html ,js,css 等<br />
-主要实现的内容如下: <br />
-1. 共享系统后台核心流程,包括借、续、预、还、共享等逻辑的设计与实现。 <br />
-2. 评分系统,书本的评分与点赞功能。 <br />
-3. 书本的评价系统。 <br />
+
+<p><a href="http://www.makerway.space/makerway/">http://www.makerway.space/makerway/</a></p>
+
+<p>在这个项目中我主要负责后台和部分前端的实现
+后台用 php 实现,基于 thinkphp 框架 前端会涉及html ,js,css 等
+主要实现的内容如下: 
+1. 共享系统后台核心流程,包括借、续、预、还、共享等逻辑的设计与实现。 
+2. 评分系统,书本的评分与点赞功能。 
+3. 书本的评价系统。 
 4. 部分前端页面,如个人信息页。</p>
+
 <p>通过这个项目,我熟悉并掌握了后台开发的相关技术及项目开发的基本流程.</p>
-<h4 id="wot"><a name="user-content-wot" href="#wot" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>&ldquo;WOT&rdquo; 国家重大专项智能教学子项</h4>
+
+<h4>
+<a id="user-content-wot-国家重大专项智能教学子项" class="anchor" href="#wot-%E5%9B%BD%E5%AE%B6%E9%87%8D%E5%A4%A7%E4%B8%93%E9%A1%B9%E6%99%BA%E8%83%BD%E6%95%99%E5%AD%A6%E5%AD%90%E9%A1%B9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>"WOT" 国家重大专项智能教学子项</h4>
+
 <blockquote>
-<p>2014.9 &ndash; 2014.12</p>
+<p>2014.9 -- 2014.12</p>
 </blockquote>
+
 <ol>
 <li>实验室国家重大专项的一个演示部分,基于开源硬件的智能答题器的功能设计与实现。负责硬件端 的功能实现,实现 wifi 网关和 zigbee 传输,json 数据解析等。</li>
 <li>基于 c++开发。</li>
 </ol>
+
 <p>通过这个项目,我了解开源硬件的开发与相关技术.</p>
-<h4 id="ifttt"><a name="user-content-ifttt" href="#ifttt" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>基于 IFTTT 模式的智能家居项目</h4>
+
+<h4>
+<a id="user-content-基于-ifttt-模式的智能家居项目" class="anchor" href="#%E5%9F%BA%E4%BA%8E-ifttt-%E6%A8%A1%E5%BC%8F%E7%9A%84%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85%E9%A1%B9%E7%9B%AE" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>基于 IFTTT 模式的智能家居项目</h4>
+
 <blockquote>
-<p>2014.4 &ndash; 2014.6</p>
+<p>2014.4 -- 2014.6</p>
 </blockquote>
+
 <ol>
 <li>实验室的一个智能家居项目,负责 Android 端的开发工作. </li>
 <li>第一次接触 Android,入门并上手一个 Android 项目。</li>
 </ol>
-<hr />
-<h2 id="_11"><a name="user-content-_11" href="#_11" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>科研经历</h2>
-<h3 id="wot_1"><a name="user-content-wot_1" href="#wot_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>“WOT”国家重大专项</h3>
+
+<hr>
+
+<h2>
+<a id="user-content-科研经历" class="anchor" href="#%E7%A7%91%E7%A0%94%E7%BB%8F%E5%8E%86" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>科研经历</h2>
+
+<h3>
+<a id="user-content-wot国家重大专项" class="anchor" href="#wot%E5%9B%BD%E5%AE%B6%E9%87%8D%E5%A4%A7%E4%B8%93%E9%A1%B9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>“WOT”国家重大专项</h3>
+
 <blockquote>
 <p>课题的总体目标是将 Web 的技术优势运用于无线泛在网中,通过 基于 Web 的无线泛在业务环境体系架构和关键技术研究,以构建更加 开放的网络与信息协同业务环境,来支持未来泛在网中各种服务和资 源的开放,以及各种业务应用的快速生成和开发。负责本课题 一个演 示部分的实现,基于开源硬件的智能答题器的功能设计与实现,属 于智能教学的一部分。</p>
 </blockquote>
-<h3 id="_12"><a name="user-content-_12" href="#_12" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>硕士论文《基于共享 模式的社交网络模型 建模与分析》</h3>
+
+<h3>
+<a id="user-content-硕士论文基于共享-模式的社交网络模型-建模与分析" class="anchor" href="#%E7%A1%95%E5%A3%AB%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E5%85%B1%E4%BA%AB-%E6%A8%A1%E5%BC%8F%E7%9A%84%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B-%E5%BB%BA%E6%A8%A1%E4%B8%8E%E5%88%86%E6%9E%90" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>硕士论文《基于共享 模式的社交网络模型 建模与分析》</h3>
+
 <blockquote>
 <p>硕士研究生期间专业方向是信息与通信工程,研究方向是物联网 与共享模式,综合考量自己兴趣和目前物联网互联网的研究状况,选 择了论文方向。选取的材料以英文为主,切入点算得上是国内研究薄 弱的环节,既是对自己的挑战也是专业上的创新。</p>
 </blockquote>
-<hr />
-<h2 id="_13"><a name="user-content-_13" href="#_13" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>获奖经历</h2>
+
+<hr>
+
+<h2>
+<a id="user-content-获奖经历" class="anchor" href="#%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>获奖经历</h2>
+
 <ul>
-<li>学校一等奖学金 <code>2015.6</code></li>
-<li>学校一等奖学金 <code>2014.6</code></li>
-<li>学校一等奖学金 <code>2013.6</code></li>
-<li>学校一等奖学金 <code>2012.6</code></li>
-<li>国家励志奖学金 <code>2011.6</code></li>
+<li>学校一等奖学金 <code>2015.6</code>
+</li>
+<li>学校一等奖学金 <code>2014.6</code>
+</li>
+<li>学校一等奖学金 <code>2013.6</code>
+</li>
+<li>学校一等奖学金 <code>2012.6</code>
+</li>
+<li>国家励志奖学金 <code>2011.6</code>
+</li>
 </ul>
-<hr />
-<h2 id="_14"><a name="user-content-_14" href="#_14" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>个人评价</h2>
+
+<hr>
+
+<h2>
+<a id="user-content-个人评价" class="anchor" href="#%E4%B8%AA%E4%BA%BA%E8%AF%84%E4%BB%B7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>个人评价</h2>
+
 <ol>
 <li>做事有恒心,有精益求精的习惯,有快速学习的能力,有钻研技术的热情; </li>
 <li>写代码时,习惯把提高代码质量和不断优化效率作为一种乐趣,喜欢迭代的开发模式; </li>
 <li>乐于接受挑战,有良好的沟通能力与合作意识。</li>
 <li>愿意追求卓越的人生,通过努力积累,成为某个领域的专家;</li>
-</ol></article></body></html>
+</ol>
+
+<hr>
+
+<h4 align="center">
+<a id="user-content-谨谢致敬" class="anchor" href="#%E8%B0%A8%E8%B0%A2%E8%87%B4%E6%95%AC" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>谨谢致敬</h4>
+
+<hr>
+</article></body></html>
